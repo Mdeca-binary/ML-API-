@@ -11,7 +11,9 @@ fastapi==0.129.0
 fonttools==4.61.1
 h11==0.16.0
 idna==3.11
+Jinja2==3.1.6
 kiwisolver==1.4.9
+MarkupSafe==3.0.3
 matplotlib==3.10.8
 nnfs==0.5.1
 numpy==2.4.2
