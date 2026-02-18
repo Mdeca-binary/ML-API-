@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class ReLU:
     
     def feedforward(self, inputs:list):
@@ -20,7 +21,7 @@ class Sigmoid:
 class LeakyReLU:
     
     def feedforward(self, alpha:float, inputs:list):
-        self.output = np.where(inputs > 0, inputs, \ 
+        self.output = np.where(inputs > 0, inputs, \
                                np.multiply(alpha, inputs))
         
 class Elu:
